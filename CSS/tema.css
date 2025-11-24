@@ -1,0 +1,36 @@
+body { 
+    background-image: url("../imagens/outerwinds.jpg");
+} 
+.cp1 {
+    text-align: center;
+    padding-top: 350px;
+    color: #F2C94C;
+    font-size: 25px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background-color: #0A0F26;
+    width: 97.6%;
+    list-style-type: none;
+    height: 40px;
+}
+
+#menu li {
+    text-align: center;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #D6E4FF;
+}
+
+#menu li a:hover {
+    color: #4A90E2;
+    font-size: 1.5em;
+}
