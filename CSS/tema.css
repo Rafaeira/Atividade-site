@@ -1,12 +1,16 @@
-body { 
+body {
     background-image: url("../imagens/outerwinds.jpg");
-} 
+    margin: 0;
+    padding: 0;
+}
+
 .tp1 {
     text-align: center;
-    padding-top: 350px;
+    padding-top: 430px;
     color: #F2C94C;
     font-size: 25px;
 }
+
 #menu {
     display: flex;
     align-items: center;
@@ -52,17 +56,68 @@ body {
     font-size: 30px;
 }
 
-.tsm {
+.stp2 {
+    display: flex;
     color: #F2C94C;
-    padding-top: 200px;
-    text-align: left;
-    padding-left: 180px;
-    font-size: 16px;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    margin-top: -100px;
 }
 
-.cmc {
+.stp2 li {
+    padding: 250px;
+}
+
+.cp2 {
+    display: flex;
     color: #F2C94C;
-    text-align: right;
-    padding-right: 180px;
-    margin-top: -150px;
+    justify-content: center;
+    font-size: 24px;
+    list-style-type: none;
+    margin-top: -380px;
+}
+
+.cp2 li {
+    padding: 150px;
+}
+
+#email {
+    padding-right: 350px;
+}
+
+#github {
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.tp3 {
+    color: #F2C94C;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#apqf {
+    padding-top: 100px;
+    font-size: 32px;
+}
+
+.p1e3 {
+    display: flex;
+    color: #F2C94C;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 27px;
+    flex: 33%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    padding-top: 60px;
+}
+
+.p1e3 li {
+    width: 320px;
+    margin: 0;
+    padding: 0;
 }
